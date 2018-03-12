@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>QrCodeTest</title>
+    </head>
+
+    <body>
+
+    <div id="qrcode"></div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="jquery-qrcode-master/jquery.qrcode.min.js"></script>
+
+    <!--<script src="https://cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>-->
+
+    <script>
+
+//        $('#qrcode').qrcode("this plugin is great");
+
+//        $('#qrcode').qrcode("http://www.baidu.com");
+
+        $('#qrcode').qrcode({width: 64,height: 64,text: "size doesn't matter"});
+
+    </script>
+
+    </body>
+</html>
