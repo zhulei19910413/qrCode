@@ -3,6 +3,7 @@
 ## 基于PHP QRcode生成二维码的Demo；
 
 
+
 ## 项目依赖
 
 *需要PHP5.6以上支持QRcode扩展；
