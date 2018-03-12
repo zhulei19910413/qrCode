@@ -35,19 +35,27 @@ public static function png($text, $outfile = false, $level = QR_ECLEVEL_L, $size
 
 */
 
-//QRcode::png($tese,'abc.jpg');
+//Demo1
+QRcode::png($tese,'abc.jpg');
 
 
+//Demo2
 //QRcode::png($tese,false,QR_ECLEVEL_L);
 
 
+
+//Demo3
 //QRcode::png($tese,false,QR_ECLEVEL_L,20);
 
 
+
+//Demo4
 //QRcode::png($tese,false,QR_ECLEVEL_L,10,0);
 
 
-QRcode::png($tese,'111.jpg',QR_ECLEVEL_L,10,0,true);
+
+//Demo5
+//QRcode::png($tese,'111.jpg',QR_ECLEVEL_L,10,0,true);
 
 
 
